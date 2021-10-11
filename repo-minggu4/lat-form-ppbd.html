@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+	<style>
+	input[type=text], select{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #EA191D;
+		border-radius: 2px;
+		box-sizing:border-box;
+	}
+	div{
+		border-radius: 5px;
+		background-color: aliceblue;
+		padding: 20px;
+	}
+		.alamat{
+			width: 15%;
+			padding: 2px 5px;
+			margin: 4px 0;
+			display: inline-block;
+			border:1px solid #EA191D;
+			border-radius: 4px;
+			align-content: center;
+		}
+	</style>
+<head>
+<meta charset="utf-8">
+<title style="color: #EA191D;">Formulir PPDB JALUR ZONASI TAHUN 2020</title>
+</head>
+<body>
+<div>
+	<form action="actionform.php" method="POST">
+	<h2 align="center">Formulir PPBD Jalur Zonasi Tahun 2020</h2>
+	<hr>
+	<br>
+	<b>Info Pendaftaran</b>
+	<br>
+	<p>
+		<label>NISN:</label>
+		<input type="text" name="NISN" placeholder="NISN..."/>
+	</p>
+	<p>
+		<label>Asal Sekolah:</label>
+		<input type="text" name="asalsekolah" placeholder="Asal sekolah..."/>
+	</p>
+	<p>
+		<label>Tahun Lulus:</label>
+		<input type="text" name="tahunlulus" placeholder="Tahun lulus..."/>
+	</p>
+	<b>DATA CALON PESERTA </b>
+	<p>
+		<label>Nama Lengkap:</label>
+		<input type="text" name="namalengkap" placeholder="Nama Lengkap.."/>
+	</p>
+	<p>
+		<label>NIK:</label>
+		<input type="text" name="nik" placeholder="NIK..."/>
+	</p>
+	<p>
+		<label>Tempat/Tanggal Lahir:</label>
+		<input type="date" name="tanggal"/>
+	</p>
+	<p>
+		<label>FOTO IJAZAH</label>
+		<input type="file" value="Upload Gambar"/>
+		<input type="submit" value="kirim">
+	</p>
+	<p>
+		<input type="radio" name="jeniskelamin" value="laki-laki">
+		<label>Laki-Laki</label>
+		
+		<input type="radio" name="jeniskelamin" value="perempuan">
+		<label>Perempuan</label>
+	</p>
+	<div class="alamat">
+	<p>
+		<b>Alamat</b><br>
+		<label>Desa:</label>
+		<input type="text" name="desa" placeholder="Desa...">
+		
+		<label>Kecamatan:</label>
+		<input type="text"  name="kecamatan" placeholder="Kecamatan..">
+		<label>Kabupaten:</label>
+		<input type="text" name="kabupaten" placeholder="Kabupaten...">
+		<label>Provinsi:</label>
+		<input type="text" name="provinsi" placeholder="Porvinsi...">	
+	</p>
+	</div>
+	<p>
+		<label>E-mail</label>
+		<input type="email" name="email" placeholder="email...">
+	</p>
+	<p>
+		<b>Data Orang tua</b><br>
+		<label>Nomor Kartu Keluarga:</label>
+		<input type="text" name="nomorkartukeluarga" placeholder="Nomor Kartu Keluarga...">
+	</p>
+	<p>
+		<label>Nama Ayah Kandung</label>
+		<input type="text" name="namaayahkandung" placeholder="Nama Ayah Kandung...">
+	</p>
+	<p>
+		<select id="agama" name="agama">
+		<option value="">Pilih Agama</option>
+		<option value="Islam">Islam</option>
+		<option value="Kristen">Kristen</option>
+		<option value="Budha">Budha</option>
+		<option value="Katolik">Katolik</option>
+		<option value="Konghuchu">Konghucu</option>
+		</select>	
+	</p>
+	<p>
+		<label>Pekerjaan</label>
+		<input type="text" name="pekerjaan" placeholder="Pekerjaan...">
+	</p>
+	<p>
+		<label>Nama Ibu Kandung:</label>
+		<input type="text" name="namaibukandung" placeholder="Nama ibu kandung...">
+	</p>
+	<p>
+		<select name="agamaibu">
+		<option value="">Pilih Agama</option>
+		<option value="Islam">Islam</option>
+		<option value="Kristen">Kristen</option>
+		<option value="Budha">Budha</option>
+		<option value="Katolik">Katolik</option>
+		<option value="Konghuchu">Konghucu</option>
+		</select>	
+	</p>
+	<p>
+		<label>Pekerjaan</label>
+		<input type="text" name="pekerjaanibu" placeholder="Pekerjaan...">
+	</p>
+	<div class="alamat">
+	<p>
+		<b>Alamat Orang Tua</b><br>
+		<label>Desa:</label>
+		<input type="text" name="kampungibu" placeholder="Desa...">
+		
+		<label>Kecamatan:</label>
+		<input type="text"  name="kecamatanibu" placeholder="Kecamatan..">
+		<label>Kabupaten:</label>
+		<input type="text" name="kabupatenibu" placeholder="Kabupaten...">
+		<label>Provinsi:</label>
+		<input type="text" name="provinsiibu" placeholder="Porvinsi...">	
+	</p>
+	</div>
+	<br>
+	<input type="submit" value="kirim">
+</form>
+	</div>
+</body>
+</html>
