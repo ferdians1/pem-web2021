@@ -1,0 +1,70 @@
+body {
+    margin: auto;
+    background-position: auto;
+}
+
+h1 {
+    color: white;
+}
+
+header {
+    font-style: rey;
+    color: white;
+}
+
+article {
+    font-style: rye;
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+.skill {
+    color: white;
+    border-color: white;
+}
+
+th {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+}
+
+nav ul {
+    background: blue;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background: #d68d9a;
+}
+
+nav ul li:hover a {
+    color: #000;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
