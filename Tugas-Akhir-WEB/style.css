@@ -1,0 +1,126 @@
+    @import url('https://fonts.googleapis.com/css2?family=Red+Rose&family=Redressed&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all .2s linear;
+    }
+    
+    header .container {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 350px;
+        background-image: url(Media/Laptop2\ 1.png);
+    }
+    
+    html {
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        scroll-padding: 6rem;
+    }
+    
+    header .judul {
+        font-family: 'Redressed', cursive;
+        color: #0A31FF;
+        font-size: 100px;
+    }
+    
+    .judul {
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        font-size: 50px;
+    }
+    
+    header .collapse {
+        font-family: 'Redressed', cursive;
+        color: rgb(37, 218, 13);
+        font-style: initial;
+    }
+    
+    header #colapse {
+        border: 2px solid;
+        border-radius: 12px;
+        padding: 5px
+    }
+    
+    header button {
+        border: none;
+    }
+    
+    #beranda {
+        font-family: 'Red Rose', cursive;
+        color: #592020;
+    }
+    
+    #product {
+        font-family: 'Red Rose', cursive;
+        color: #304cee;
+    }
+    
+    .card-body {
+        background-color: #AE9999;
+    }
+    
+    body {
+        background-image: url(media/background-f.png);
+        background-position: center;
+        background-attachment: scroll;
+        margin: auto;
+    }
+    
+    #layanan {
+        font-family: 'Red Rose', cursive;
+        color: #592020;
+    }
+    
+    .alayanan {
+        color: black;
+    }
+    
+    .navbar {
+        font-family: 'Red Rose', cursive;
+        color: red;
+        overflow: hidden;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar li {
+        float: left;
+    }
+    
+    .navbar li a {
+        font-family: 'Red Rose', cursive;
+        color: red;
+        padding: 8px;
+    }
+    
+    form {
+        float: right;
+        padding: 20px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 100px;
+        font-size: 17px;
+    }
+    
+    .card-body #card-list {
+        background-color: blue;
+    }
+    
+    footer {
+        background-color: black;
+    }
